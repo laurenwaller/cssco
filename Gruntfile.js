@@ -25,19 +25,19 @@ module.exports = function (grunt) {
                 files: [
                     {
                         expand: true,
-                        cwd: 'assets',
+                        cwd: 'src/assets',
                         src: ['{fonts,images,js}/**'],
                         dest: 'build/assets'
                     },
                     {
                         expand: true,
-                        cwd: '',
+                        cwd: 'src',
                         src: ['**/*.html'],
                         dest: 'build'
                     },
                     {
                         expand: true,
-                        cwd: '',
+                        cwd: 'src',
                         src: ['*.*', '.*'],
                         dest: 'build'
                     }
@@ -56,7 +56,7 @@ module.exports = function (grunt) {
             }
         },
         eslint: {
-            target: ['assets/js/main.js']
+            target: ['src/assets/js/main.js']
         },
         'ftp-deploy': {
             build: {
@@ -92,8 +92,8 @@ module.exports = function (grunt) {
                     sourceMap: true
                 },
                 files: {
-                    'build/assets/css/style.css': 'assets/sass/style.scss',
-                    'build/assets/css/styleguide/styleguide.css': 'assets/sass/styleguide/styleguide.scss'
+                    'build/assets/css/style.css': 'src/assets/sass/style.scss',
+                    'build/assets/css/styleguide/styleguide.css': 'src/assets/sass/styleguide/styleguide.scss'
                 }
             }
         },
@@ -101,9 +101,9 @@ module.exports = function (grunt) {
             build: {
                 files: {
                     'build/assets/js/script.js': [
-                        'assets/js/vendor/jquery.js',
-                        'assets/js/plugins.js',
-                        'assets/js/main.js'
+                        'src/assets/js/vendor/jquery.js',
+                        'src/assets/js/plugins.js',
+                        'src/assets/js/main.js'
                     ]
                 }
             }
@@ -111,7 +111,7 @@ module.exports = function (grunt) {
         watch: {
             build: {
                 files: [
-                    '**'
+                    'src/**'
                 ],
                 tasks: ['sass:build', 'copy:build', 'uglify:build'],
                 options: {

@@ -1,0 +1,19 @@
+/* -------------------------------------------------------------------------- *\
+   #PARAGRAPH
+\* -------------------------------------------------------------------------- */
+
+p {
+    margin-top: 0;
+
+    a {
+        border-bottom: 3px solid;
+        color: $color-black;
+        text-decoration: none;
+        transition: color 0.25s;
+
+        &:focus,
+        &:hover {
+            color: $color-green;
+        }
+    }
+}

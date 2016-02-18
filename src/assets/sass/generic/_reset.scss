@@ -1,0 +1,35 @@
+/* -------------------------------------------------------------------------- *\
+   #RESET
+\* -------------------------------------------------------------------------- */
+
+/**
+ * Remove the gap between audio, canvas, iframes, images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/**
+ * Remove default fieldset styles
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/**
+ * Allow only vertical resizing of textareas
+ */
+
+textarea {
+    resize: vertical;
+}

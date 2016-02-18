@@ -1,0 +1,41 @@
+/* -------------------------------------------------------------------------- *\
+   #HTML
+\* -------------------------------------------------------------------------- */
+
+/**
+ * Apply a natural box layout model to all elements
+ */
+
+*,
+:before,
+:after {
+    box-sizing: border-box;
+}
+
+/**
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate
+ * Customize the background color to match your design
+ */
+
+::-moz-selection {
+    background: $color-green;
+    color: $color-white;
+    text-shadow: none;
+}
+
+::selection {
+    background: $color-green;
+    color: $color-white;
+    text-shadow: none;
+}
+
+/**
+ * HTML
+ */
+
+html {
+    background-color: $color-white-dark;
+    color: $color-black;
+    font: 100%/1.5 $font;
+}

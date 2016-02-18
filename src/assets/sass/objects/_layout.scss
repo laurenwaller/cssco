@@ -1,0 +1,165 @@
+/**
+ * LAYOUT
+ */
+
+/* -------------------------------------------------------------------------- *\
+   #TABLE OF CONTENTS
+\* -------------------------------------------------------------------------- */
+
+/**
+ * WRAPPER
+ * HEADER
+ * SECTION
+ * FOOTER
+ */
+
+
+
+
+
+/* -------------------------------------------------------------------------- *\
+   #WRAPPER
+\* -------------------------------------------------------------------------- */
+
+.l-wrapper {
+    @include clearfix();
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 71.25em; /* 1140 / 16 */
+    position: relative;
+    width: 90%;
+
+    /**
+     * Small
+     */
+
+    &.l-wrapper--small {
+        max-width: 53.125em; /* 850 / 16 */
+    }
+}
+
+
+
+
+
+/* -------------------------------------------------------------------------- *\
+   #HEADER
+\* -------------------------------------------------------------------------- */
+
+.l-header {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+
+    /**
+     * Left
+     */
+
+    &.l-header--left {
+        text-align: left;
+    }
+
+    .hN {
+        border-top-width: 10px;
+        border-bottom-width: 4px;
+        line-height: 1;
+        margin-top: 0;
+        margin-bottom: 0.25em;
+    }
+
+    p {
+        font-size: 0.875em; /* 14 / 16 */
+        letter-spacing: 2px;
+        line-height: 1.75;
+        margin-bottom: 2em;
+        text-transform: uppercase;
+    }
+}
+
+@media all and (min-width: $bp-small) {
+
+    .l-header {
+        padding-top: 4em;
+        padding-bottom: 6em;
+    }
+}
+
+
+
+
+
+/* -------------------------------------------------------------------------- *\
+   #SECTION
+\* -------------------------------------------------------------------------- */
+
+.l-section {
+    padding-bottom: 2em;
+}
+
+@media all and (min-width: $bp-small) {
+
+    .l-section {
+        padding-bottom: 6em;
+    }
+}
+
+
+
+
+
+/* -------------------------------------------------------------------------- *\
+   #FOOTER
+\* -------------------------------------------------------------------------- */
+
+.l-footer {
+    background-color: $color-white;
+    margin-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    text-align: center;
+
+    /**
+     * Copyright
+     */
+
+    .l-footer__copyright {
+        font-size: 0.75em; /* 12 / 16 */
+        letter-spacing: 2px;
+        line-height: 1.875;
+        text-transform: uppercase;
+    }
+
+    /**
+     * Icons
+     */
+
+    .l-footer__icons {
+        margin-top: 2em;
+        margin-bottom: 2em;
+
+        .icon {
+            color: $color-black;
+            font-size: 1.5em;
+            margin-right: 1em;
+            text-decoration: none;
+            transition: color 0.25s;
+
+            &:focus,
+            &:hover {
+                color: $color-green;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+@media all and (min-width: $bp-small) {
+
+    .l-footer {
+        padding-top: 3em;
+        padding-bottom: 4em;
+    }
+}

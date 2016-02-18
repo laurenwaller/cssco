@@ -1,0 +1,151 @@
+/**
+ * LISTS
+ */
+
+/* -------------------------------------------------------------------------- *\
+   #TABLE OF CONTENTS
+\* -------------------------------------------------------------------------- */
+
+/**
+ * MIXIN
+ * DESCRIPTION
+ * CUSTOM
+ */
+
+
+
+
+
+/* -------------------------------------------------------------------------- *\
+   #MIXIN
+\* -------------------------------------------------------------------------- */
+
+@mixin unstyled() {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/* -------------------------------------------------------------------------- *\
+   #DESCRIPTION
+\* -------------------------------------------------------------------------- */
+
+dl {
+    margin-bottom: 1em;
+
+    dt {
+        font-weight: $weight-bold;
+    }
+
+    dd {
+        margin-bottom: 1em;
+        margin-left: 0;
+
+        & + dd {
+            margin-top: -1em;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+
+
+
+
+/* -------------------------------------------------------------------------- *\
+   #CUSTOM
+\* -------------------------------------------------------------------------- */
+
+.list {
+
+    .list {
+        margin-left: 1em;
+    }
+
+    /**
+     * Inline
+     */
+
+    &.list--inline {
+        @include clearfix();
+        @include unstyled();
+
+        li {
+            float: left;
+            margin-right: 1em;
+            margin-bottom: 0;
+
+            a {
+                border-bottom: 3px solid transparent;
+                color: $color-black;
+                font-family: $font-secondary;
+                text-decoration: none;
+                transition: border-color 0.25s;
+
+                &:focus,
+                &:hover {
+                    border-bottom-color: $color-black;
+                }
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            &.is-active {
+
+                a {
+                    border-bottom-color: $color-black;
+                }
+            }
+        }
+    }
+
+    /**
+     * Ordered
+     */
+
+    &.list--ordered {
+        margin-bottom: 1em;
+
+        li {
+            margin-bottom: 1em;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    /**
+     * Unordered
+     */
+
+    &.list--unordered {
+        list-style: square;
+        margin-bottom: 1em;
+
+        li {
+            margin-bottom: 1em;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    /**
+     * Unstyled
+     */
+
+    &.list--unstyled {
+        @include unstyled();
+    }
+}

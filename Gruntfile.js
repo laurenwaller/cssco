@@ -58,34 +58,6 @@ module.exports = function (grunt) {
         eslint: {
             target: ['src/assets/js/main.js']
         },
-        'ftp-deploy': {
-            build: {
-                auth: {
-                    host: 'playingwithcode.co.za',
-                    port: 21,
-                    authKey: 'waller'
-                },
-                src: './build',
-                dest: 'public_html/cssco/',
-                exclusions: [
-                    '.editorconfig',
-                    '.ftppass',
-                    '.git',
-                    '.gitignore',
-                    '.htaccess',
-                    '.idea',
-                    '*.scss',
-                    'apple-touch-icon-precomposed.png',
-                    'favicon.ico',
-                    'Gruntfile.js',
-                    'package.json',
-                    'README.md',
-                    'robots.txt',
-                    'sass',
-                    'node_modules'
-                ]
-            }
-        },
         sass: {
             build: {
                 options: {
@@ -125,8 +97,6 @@ module.exports = function (grunt) {
 
     grunt.registerTask('build', ['clean:build', 'sass:build', 'copy:build', 'uglify:build']);
     grunt.registerTask('default', ['build']);
-    grunt.registerTask('deploy', ['build', 'ftp']);
-    grunt.registerTask('ftp', ['ftp-deploy']);
     grunt.registerTask('serve', ['build', 'connect', 'watch']);
     grunt.registerTask('test', ['csslint', 'eslint']);
 };

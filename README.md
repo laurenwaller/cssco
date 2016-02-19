@@ -50,7 +50,7 @@ Ensure that the following is installed on your computer:
 
 ### Getting Started
 
-1. Clone the repository: `git clone git@github.com:laurenwaller/cssco.git`
+1. Clone the repository: `git clone git@github.com:we-are-next/cssco.git`
 2. Change to the directory you cloned the repository into: e.g. `cd cssco`
 3. Install the required dependencies: `npm install`
 4. Start a local server: `npm start`

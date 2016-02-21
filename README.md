@@ -1,8 +1,8 @@
 # CSSCO
 
-Photographic filters made with css, inspired by VSCO [http://playingwithcode.co.za/cssco](http://playingwithcode.co.za/cssco)
+Photographic filters made with css, inspired by VSCO [http://www.cssco.co](http://www.cssco.co)
 
-**[Download CSSCO](http://playingwithcode.co.za/cssco/example/cssco_v0.1.0.zip)**
+**[Download CSSCO](https://github.com/we-are-next/cssco/blob/gh-pages/dist/cssco.css)**
 
 ![CSSCO](http://playingwithcode.co.za/cssco/assets/images/cssco-screenshot.png)
 
@@ -17,7 +17,7 @@ ___
 **Add the filter to your image element using the relevant CSSCO classes:**
 
 ``` html
-<div class="cssco cssco-c1">
+<div class="cssco cssco--c1">
    <img src="image.png">
 </div>
 ```
@@ -61,15 +61,6 @@ Ensure that the following is installed on your computer:
 - [jQuery](http://jquery.com)
 - [Font Awesome](http://fontawesome.io)
 
-### Polyfills
-
-The following scripts are included for **IE8** and below:
-
-- [html5shiv](https://github.com/aFarkas/html5shiv)
-- [matchMedia.js](https://github.com/paulirish/matchMedia.js)
-- [Respond.js](https://github.com/scottjehl/Respond)
-
 ### Linting
 
 1. CSS: `grunt csslint`
-2. JavaScript: `grunt eslint`

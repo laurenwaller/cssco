@@ -3,16 +3,23 @@
 \* -------------------------------------------------------------------------- */
 
 .card {
-    background-color: $color-white;
-    box-shadow: 0 1px 2px rgba(0,0,0, 0.2);
-    margin-bottom: 1.5em;
-    padding: 1.5em;
-    transition: box-shadow 0.25s, transform 0.25s;
 
-    &:focus,
-    &:hover {
-        box-shadow: 0 20px 100px rgba(0,0,0, 0.3);
-        transform: translateY(-3px);
+    /**
+     * Padded
+     */
+
+    &.card--padded {
+        background-color: $color-white;
+        box-shadow: 0 1px 2px rgba(0,0,0, 0.2);
+        margin-bottom: 1.5em;
+        padding: 1.5em;
+        transition: box-shadow 0.25s, transform 0.25s;
+
+        &:focus,
+        &:hover {
+            box-shadow: 0 20px 100px rgba(0,0,0, 0.3);
+            transform: translateY(-3px);
+        }
     }
 
     /**
@@ -50,5 +57,33 @@
         margin-top: 0;
         margin-bottom: 0.75em;
         padding: 0.5em 0.5em 0.75em 0.5em;
+    }
+
+    /**
+     * Cssco
+     */
+
+    .cssco {
+        margin-bottom: 1.5em;
+
+        &.cssco--no-filter {
+            margin-bottom: 3em;
+        }
+
+        &:focus,
+        &:hover {
+            background: none !important;
+
+            &:after {
+                display: none !important;
+            }
+
+            img {
+                filter: none !important;
+                -webkit-filter: none !important;
+                mix-blend-mode: initial !important;
+                opacity: 1 !important;
+            }
+        }
     }
 }

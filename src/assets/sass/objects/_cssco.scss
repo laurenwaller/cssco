@@ -3,12 +3,7 @@
 \* -------------------------------------------------------------------------- */
 
 .cssco {
-    margin-bottom: 1.5em;
     position: relative;
-
-    &.cssco--no-filter {
-        margin-bottom: 3em;
-    }
 
     &:after {
         content: "";
@@ -17,22 +12,6 @@
         position: absolute;
         top: 0;
         width: 100%;
-    }
-
-    &:focus,
-    &:hover {
-        background: none !important;
-
-        &:after {
-            display: none !important;
-        }
-
-        img {
-            filter: none !important;
-            -webkit-filter: none !important;
-            mix-blend-mode: initial !important;
-            opacity: 1 !important;
-        }
     }
 
     img {

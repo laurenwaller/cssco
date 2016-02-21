@@ -32,6 +32,12 @@ module.exports = function (grunt) {
                     {
                         expand: true,
                         cwd: 'src',
+                        src: ['{dist}/**'],
+                        dest: 'build'
+                    },
+                    {
+                        expand: true,
+                        cwd: 'src',
                         src: ['**/*.html'],
                         dest: 'build'
                     },
@@ -47,7 +53,8 @@ module.exports = function (grunt) {
         csslint: {
             build: {
                 src: [
-                    'build/assets/css/style.css'
+                    'build/assets/css/style.css',
+                    'build/dist/cssco.css'
                 ],
                 options: {
                     csslintrc: '.csslintrc',
@@ -62,7 +69,15 @@ module.exports = function (grunt) {
                 },
                 files: {
                     'build/assets/css/style.css': 'src/assets/sass/style.scss',
+                    'build/dist/cssco.css': 'src/assets/sass/cssco.scss',
                     'build/assets/css/styleguide/styleguide.css': 'src/assets/sass/styleguide/styleguide.scss'
+                }
+            }
+        },
+        cssmin: {
+            build: {
+                files: {
+                    'build/dist/cssco.min.css': 'build/dist/cssco.css'
                 }
             }
         },
@@ -81,7 +96,7 @@ module.exports = function (grunt) {
 
     require('load-grunt-tasks')(grunt);
 
-    grunt.registerTask('build', ['clean:build', 'sass:build', 'copy:build']);
+    grunt.registerTask('build', ['clean:build', 'sass:build', 'copy:build', 'cssmin:build']);
     grunt.registerTask('default', ['build']);
     grunt.registerTask('serve', ['build', 'connect', 'watch']);
     grunt.registerTask('test', ['csslint']);

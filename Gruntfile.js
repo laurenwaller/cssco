@@ -55,9 +55,6 @@ module.exports = function (grunt) {
                 }
             }
         },
-        eslint: {
-            target: ['src/assets/js/main.js']
-        },
         sass: {
             build: {
                 options: {
@@ -69,23 +66,12 @@ module.exports = function (grunt) {
                 }
             }
         },
-        uglify: {
-            build: {
-                files: {
-                    'build/assets/js/script.js': [
-                        'src/assets/js/vendor/jquery.js',
-                        'src/assets/js/plugins.js',
-                        'src/assets/js/main.js'
-                    ]
-                }
-            }
-        },
         watch: {
             build: {
                 files: [
                     'src/**'
                 ],
-                tasks: ['sass:build', 'copy:build', 'uglify:build'],
+                tasks: ['sass:build', 'copy:build'],
                 options: {
                     livereload: true
                 }
@@ -95,8 +81,8 @@ module.exports = function (grunt) {
 
     require('load-grunt-tasks')(grunt);
 
-    grunt.registerTask('build', ['clean:build', 'sass:build', 'copy:build', 'uglify:build']);
+    grunt.registerTask('build', ['clean:build', 'sass:build', 'copy:build']);
     grunt.registerTask('default', ['build']);
     grunt.registerTask('serve', ['build', 'connect', 'watch']);
-    grunt.registerTask('test', ['csslint', 'eslint']);
+    grunt.registerTask('test', ['csslint']);
 };

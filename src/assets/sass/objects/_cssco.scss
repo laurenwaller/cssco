@@ -1,7 +1,3 @@
-/* -------------------------------------------------------------------------- *\
-   #CSSCO
-\* -------------------------------------------------------------------------- */
-
 .cssco {
     position: relative;
 
@@ -20,10 +16,6 @@
         width: 100%;
     }
 
-    /*
-     * C1
-     */
-
     &.cssco--c1 {
         background: linear-gradient(#d5aeae, #8f8f8f, #c99d93, #185d62 110%);
 
@@ -38,10 +30,6 @@
             mix-blend-mode: hard-light;
         }
     }
-
-    /*
-     * F2
-     */
 
     &.cssco--f2 {
         background: linear-gradient(#b8dfdc, #aaa);
@@ -58,10 +46,6 @@
         }
     }
 
-    /*
-     * G3
-     */
-
     &.cssco--g3 {
         background: linear-gradient(#485c6e, #b9b9b0 15%, #4b6974);
 
@@ -71,10 +55,6 @@
             mix-blend-mode: hard-light;
         }
     }
-
-    /*
-     * P5
-     */
 
     &.cssco--p5 {
         background-color: #8facaf;
@@ -91,10 +71,6 @@
         }
     }
 
-    /*
-     * LV3
-     */
-
     &.cssco--lv3 {
         background: linear-gradient(-179deg, #a48a7a 0%, #927f77 37%, #ac8577 49%, #574d47 100%);
 
@@ -105,10 +81,6 @@
         }
     }
 
-    /*
-     * B5
-     */
-
     &.cssco--b5 {
         background-color: #000;
 
@@ -118,10 +90,6 @@
             opacity: 0.9;
         }
     }
-
-    /*
-     * A6
-     */
 
     &.cssco--a6 {
         background-color: #a9a499;
@@ -138,10 +106,6 @@
         }
     }
 
-    /*
-     * M5
-     */
-
     &.cssco--m5 {
         background: radial-gradient(#c09f81, #816c5f);
 
@@ -157,10 +121,6 @@
             mix-blend-mode: hard-light;
         }
     }
-
-    /*
-     * M3
-     */
 
     &.cssco--m3 {
         background-color: #817e72;
@@ -179,10 +139,6 @@
         }
     }
 
-    /*
-     * HB1
-     */
-
     &.cssco--hb1 {
         background: linear-gradient(-180deg, #8e8d9a 30%, #a6939f 48%, #6c7c95 65%, #6a7b95 58%, #c5cdd7 86%, #303743 100%);
 
@@ -198,10 +154,6 @@
             -webkit-filter: grayscale(20%) contrast(130%);
         }
     }
-
-    /*
-     * HB2
-     */
 
     &.cssco--hb2 {
         background: linear-gradient(-180deg, #8e8d9a 31%, #a69893 49%, #4c4644 58%, #c5cdd7 88%, #303d43 100%);
@@ -219,10 +171,6 @@
         }
     }
 
-    /*
-     * ACG
-     */
-
     &.cssco--acg {
         background-color: #eceedf;
 
@@ -239,10 +187,6 @@
         }
     }
 
-    /*
-     * X1
-     */
-
     &.cssco--x1 {
         background-color: #444;
 
@@ -257,10 +201,6 @@
             opacity: 0.75;
         }
     }
-
-    /*
-     * T1
-     */
 
     &.cssco--t1 {
         background-color: #9d9990;

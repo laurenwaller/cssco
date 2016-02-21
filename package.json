@@ -7,7 +7,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/laurenwaller/cssco.git"
+    "url": "https://github.com/we-are-next/cssco.git"
   },
   "scripts": {
     "start": "grunt serve",

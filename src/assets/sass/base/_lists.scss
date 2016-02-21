@@ -8,7 +8,6 @@
 
 /**
  * MIXIN
- * DESCRIPTION
  * CUSTOM
  */
 
@@ -24,35 +23,6 @@
     list-style: none;
     margin: 0;
     padding: 0;
-}
-
-
-
-
-
-/* -------------------------------------------------------------------------- *\
-   #DESCRIPTION
-\* -------------------------------------------------------------------------- */
-
-dl {
-    margin-bottom: 1em;
-
-    dt {
-        font-weight: $weight-bold;
-    }
-
-    dd {
-        margin-bottom: 1em;
-        margin-left: 0;
-
-        & + dd {
-            margin-top: -1em;
-        }
-
-        &:last-child {
-            margin-bottom: 0;
-        }
-    }
 }
 
 
@@ -106,46 +76,5 @@ dl {
                 }
             }
         }
-    }
-
-    /**
-     * Ordered
-     */
-
-    &.list--ordered {
-        margin-bottom: 1em;
-
-        li {
-            margin-bottom: 1em;
-
-            &:last-child {
-                margin-bottom: 0;
-            }
-        }
-    }
-
-    /**
-     * Unordered
-     */
-
-    &.list--unordered {
-        list-style: square;
-        margin-bottom: 1em;
-
-        li {
-            margin-bottom: 1em;
-
-            &:last-child {
-                margin-bottom: 0;
-            }
-        }
-    }
-
-    /**
-     * Unstyled
-     */
-
-    &.list--unstyled {
-        @include unstyled();
     }
 }

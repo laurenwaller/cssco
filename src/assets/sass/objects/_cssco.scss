@@ -25,8 +25,8 @@
         }
 
         img {
-            filter: grayscale(6%) contrast(130%);
             -webkit-filter: grayscale(6%) contrast(130%);
+                    filter: grayscale(6%) contrast(130%);
             mix-blend-mode: hard-light;
         }
     }
@@ -40,8 +40,8 @@
         }
 
         img {
-            filter: contrast(150%);
             -webkit-filter: contrast(150%);
+                    filter: contrast(150%);
             opacity: 0.85;
         }
     }
@@ -50,8 +50,8 @@
         background: linear-gradient(#485c6e, #b9b9b0 15%, #4b6974);
 
         img {
-            filter: contrast(130%);
             -webkit-filter: contrast(130%);
+                    filter: contrast(130%);
             mix-blend-mode: hard-light;
         }
     }
@@ -65,8 +65,8 @@
         }
 
         img {
-            filter: contrast(150%) grayscale(15%);
             -webkit-filter: contrast(150%) grayscale(15%);
+                    filter: contrast(150%) grayscale(15%);
             opacity: 0.8;
         }
     }
@@ -75,8 +75,8 @@
         background: linear-gradient(-179deg, #a48a7a 0%, #927f77 37%, #ac8577 49%, #574d47 100%);
 
         img {
-            filter: grayscale(20%) contrast(130%);
             -webkit-filter: grayscale(20%) contrast(130%);
+                    filter: grayscale(20%) contrast(130%);
             mix-blend-mode: hard-light;
         }
     }
@@ -85,8 +85,8 @@
         background-color: #000;
 
         img {
-            filter: grayscale(100%) contrast(180%) brightness(95%);
             -webkit-filter: grayscale(100%) contrast(180%) brightness(95%);
+                    filter: grayscale(100%) contrast(180%) brightness(95%);
             opacity: 0.9;
         }
     }
@@ -100,8 +100,8 @@
         }
 
         img {
-            filter: grayscale(30%) contrast(140%) hue-rotate(-5deg);
             -webkit-filter: grayscale(30%) contrast(140%) hue-rotate(-5deg);
+                    filter: grayscale(30%) contrast(140%) hue-rotate(-5deg);
             mix-blend-mode: hard-light;
         }
     }
@@ -116,8 +116,8 @@
         }
 
         img {
-            filter: grayscale(40%) contrast(110%);
             -webkit-filter: grayscale(40%) contrast(110%);
+                    filter: grayscale(40%) contrast(110%);
             mix-blend-mode: hard-light;
         }
     }
@@ -132,8 +132,8 @@
         }
 
         img {
-            filter: grayscale(30%) contrast(155%);
             -webkit-filter: grayscale(30%) contrast(155%);
+                    filter: grayscale(30%) contrast(155%);
             mix-blend-mode: hard-light;
             opacity: 0.75;
         }
@@ -149,9 +149,9 @@
         }
 
         img {
-            mix-blend-mode: hard-light;
-            filter: grayscale(20%) contrast(130%);
             -webkit-filter: grayscale(20%) contrast(130%);
+                    filter: grayscale(20%) contrast(130%);
+            mix-blend-mode: hard-light;
         }
     }
 
@@ -165,9 +165,9 @@
         }
 
         img {
-            mix-blend-mode: hard-light;
-            filter: grayscale(20%) contrast(130%);
             -webkit-filter: grayscale(20%) contrast(130%);
+                    filter: grayscale(20%) contrast(130%);
+            mix-blend-mode: hard-light;
         }
     }
 
@@ -180,8 +180,8 @@
         }
 
         img {
-            filter: grayscale(40%) contrast(160%) brightness(85%) hue-rotate(-5deg);
             -webkit-filter: grayscale(40%) contrast(160%) brightness(85%) hue-rotate(-5deg);
+                    filter: grayscale(40%) contrast(160%) brightness(85%) hue-rotate(-5deg);
             mix-blend-mode: darken;
             opacity: 0.85;
         }
@@ -196,8 +196,8 @@
         }
 
         img {
-            filter: grayscale(100%) contrast(190%) brightness(110%);
             -webkit-filter: grayscale(100%) contrast(190%) brightness(110%);
+                    filter: grayscale(100%) contrast(190%) brightness(110%);
             opacity: 0.75;
         }
     }
@@ -212,8 +212,8 @@
         }
 
         img {
-            filter: grayscale(20%) contrast(140%);
             -webkit-filter: grayscale(20%) contrast(140%);
+                    filter: grayscale(20%) contrast(140%);
             mix-blend-mode: hard-light;
         }
     }

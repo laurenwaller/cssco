@@ -40,7 +40,6 @@ Thumbs.db
 ################
 .ftppass
 build
-dist
 node_modules
 validation-report.json
 validation-status.json

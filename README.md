@@ -2,7 +2,7 @@
 
 Photographic filters made with css, inspired by VSCO [http://www.cssco.co](http://www.cssco.co)
 
-**[Download CSSCO](https://github.com/we-are-next/cssco/blob/gh-pages/dist/cssco.css)**
+**[Download](https://github.com/we-are-next/cssco/cssco.css)**
 
 ![CSSCO](http://playingwithcode.co.za/cssco/assets/images/cssco-screenshot.png)
 
@@ -35,32 +35,3 @@ See compatibility for: [mixblendmode](http://caniuse.com/#feat=css-mixblendmode)
 ___
 
 *These filters are inspired by VSCO and are not exact replicas of their filters, but are as close as I could get. If you think you can get closer, please feel free to contribute :)
-
-[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com)
-
-### Requirements
-
-Ensure that the following is installed on your computer:
-
-1. [Git](http://git-scm.com/downloads)
-2. [Node.js](https://nodejs.org/en/download)
-3. [RubyInstaller for Windows](http://rubyinstaller.org/downloads)
-  - Ruby is pre-installed on Mac
-4. [Sass](http://sass-lang.com/install)
-
-### Getting Started
-
-1. Clone the repository: `git clone git@github.com:we-are-next/cssco.git`
-2. Change to the directory you cloned the repository into: e.g. `cd cssco`
-3. Install the required dependencies: `npm install`
-4. Start a local server: `npm start`
-
-### Components
-
-- [Normalize.css](http://necolas.github.io/normalize.css)
-- [jQuery](http://jquery.com)
-- [Font Awesome](http://fontawesome.io)
-
-### Linting
-
-1. CSS: `grunt csslint`

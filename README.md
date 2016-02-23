@@ -2,7 +2,7 @@
 
 Photographic filters made with css, inspired by VSCO [http://www.cssco.co](http://www.cssco.co)
 
-**[Download](https://github.com/we-are-next/cssco/cssco.css)**
+**[Download](https://raw.githubusercontent.com/we-are-next/cssco/master/cssco.css)**
 
 ![CSSCO](http://playingwithcode.co.za/cssco/assets/images/cssco-screenshot.png)
 

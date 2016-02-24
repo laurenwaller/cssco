@@ -9,9 +9,9 @@ Photographic filters made with css, inspired by VSCO and CSSgram [http://www.css
 ___
 
 ### How to use CSSCO
-**Add the downloaded css file path to the head of your document:**
+**Add the downloaded css file path to the `<head>` of your document:**
 
-`<link href="path/to/cssco.css" rel="stylesheet" type="text/css">`
+`<link rel="stylesheet" href="path/to/cssco.css">`
 
 
 **Add the filter to your image element using the relevant CSSCO classes:**

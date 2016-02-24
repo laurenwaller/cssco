@@ -2,7 +2,7 @@
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/)
 
-Photographic filters made with css, inspired by VSCO [http://www.cssco.co](http://www.cssco.co)
+Photographic filters made with css, inspired by VSCO and CSSgram [http://www.cssco.co](http://www.cssco.co)
 
 **[Download](https://raw.githubusercontent.com/we-are-next/cssco/master/cssco.css)**
 

@@ -6,8 +6,6 @@ Photographic filters made with css, inspired by VSCO [http://www.cssco.co](http:
 
 **[Download](https://raw.githubusercontent.com/we-are-next/cssco/master/cssco.css)**
 
-![CSSCO](http://playingwithcode.co.za/cssco/assets/images/cssco-screenshot.png)
-
 ___
 
 ### How to use CSSCO

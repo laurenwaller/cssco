@@ -36,6 +36,10 @@
 ehthumbs.db
 Thumbs.db
 
+# Grunt / Node #
+################
+node_modules
+
 # PhpStorm #
 ###########
 *.idea

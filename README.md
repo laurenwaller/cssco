@@ -2,16 +2,18 @@
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/)
 
-Photographic filters made with css, inspired by VSCO and CSSgram [http://www.cssco.co](http://www.cssco.co)
+Photographic filters made with CSS, inspired by VSCO and CSSgram [http://www.cssco.co](http://www.cssco.co)
 
 **[Download](https://raw.githubusercontent.com/we-are-next/cssco/master/cssco.css)**
 
 ___
 
 ### How to use CSSCO
-**Add the downloaded css file path to the `<head>` of your document:**
+**Add the downloaded CSS file path to the `<head>` of your document:**
 
-`<link rel="stylesheet" href="path/to/cssco.css">`
+``` html
+<link rel="stylesheet" href="path/to/cssco.css">
+```
 
 
 **Add the filter to your image element using the relevant CSSCO classes:**
@@ -24,11 +26,11 @@ ___
 
 ___
 
-### Compatability
+### Compatibility
 
 Unfortunately, IE & Edge browsers, as well as Opera Mini do not support filters and blend modes.
 
-Safari (desktop & IOS ) does not support the hue, saturation, color, and luminosity blend modes, but this should not affect the CSSCO filters much, if at all.
+Safari (desktop & iOS) does not support the hue, saturation, color, and luminosity blend modes, but this should not affect the CSSCO filters much, if at all.
 
 See compatibility for: [mixblendmode](http://caniuse.com/#feat=css-mixblendmode) | [filters](http://caniuse.com/#feat=css-filters)
 

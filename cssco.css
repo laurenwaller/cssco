@@ -39,8 +39,7 @@
 }
 
 .cssco.cssco--c1 img {
-    -webkit-filter: grayscale(6%) contrast(130%);
-            filter: grayscale(6%) contrast(130%);
+    filter: grayscale(6%) contrast(130%);
     mix-blend-mode: hard-light;
 }
 
@@ -62,8 +61,7 @@
 }
 
 .cssco.cssco--f2 img {
-    -webkit-filter: contrast(150%);
-            filter: contrast(150%);
+    filter: contrast(150%);
     opacity: 0.85;
 }
 
@@ -80,8 +78,7 @@
 }
 
 .cssco.cssco--g3 img {
-    -webkit-filter: contrast(130%);
-            filter: contrast(130%);
+    filter: contrast(130%);
     mix-blend-mode: hard-light;
 }
 
@@ -103,8 +100,7 @@
 }
 
 .cssco.cssco--p5 img {
-    -webkit-filter: contrast(150%) grayscale(15%);
-            filter: contrast(150%) grayscale(15%);
+    filter: contrast(150%) grayscale(15%);
     opacity: 0.8;
 }
 
@@ -121,8 +117,7 @@
 }
 
 .cssco.cssco--lv3 img {
-    -webkit-filter: grayscale(20%) contrast(130%);
-            filter: grayscale(20%) contrast(130%);
+    filter: grayscale(20%) contrast(130%);
     mix-blend-mode: hard-light;
 }
 
@@ -139,8 +134,7 @@
 }
 
 .cssco.cssco--b5 img {
-    -webkit-filter: grayscale(100%) contrast(180%) brightness(95%);
-            filter: grayscale(100%) contrast(180%) brightness(95%);
+    filter: grayscale(100%) contrast(180%) brightness(95%);
     opacity: 0.9;
 }
 
@@ -162,8 +156,7 @@
 }
 
 .cssco.cssco--a6 img {
-    -webkit-filter: grayscale(30%) contrast(140%) hue-rotate(-5deg);
-            filter: grayscale(30%) contrast(140%) hue-rotate(-5deg);
+    filter: grayscale(30%) contrast(140%) hue-rotate(-5deg);
     mix-blend-mode: hard-light;
 }
 
@@ -186,8 +179,7 @@
 }
 
 .cssco.cssco--m5 img {
-    -webkit-filter: grayscale(40%) contrast(110%);
-            filter: grayscale(40%) contrast(110%);
+    filter: grayscale(40%) contrast(110%);
     mix-blend-mode: hard-light;
 }
 
@@ -210,8 +202,7 @@
 }
 
 .cssco.cssco--m3 img {
-    -webkit-filter: grayscale(30%) contrast(155%);
-            filter: grayscale(30%) contrast(155%);
+    filter: grayscale(30%) contrast(155%);
     mix-blend-mode: hard-light;
     opacity: 0.75;
 }
@@ -235,8 +226,7 @@
 }
 
 .cssco.cssco--hb1 img {
-    -webkit-filter: grayscale(20%) contrast(130%);
-            filter: grayscale(20%) contrast(130%);
+    filter: grayscale(20%) contrast(130%);
     mix-blend-mode: hard-light;
 }
 
@@ -259,8 +249,7 @@
 }
 
 .cssco.cssco--hb2 img {
-    -webkit-filter: grayscale(20%) contrast(130%);
-            filter: grayscale(20%) contrast(130%);
+    filter: grayscale(20%) contrast(130%);
     mix-blend-mode: hard-light;
 }
 
@@ -282,8 +271,7 @@
 }
 
 .cssco.cssco--acg img {
-    -webkit-filter: grayscale(40%) contrast(160%) brightness(85%) hue-rotate(-5deg);
-            filter: grayscale(40%) contrast(160%) brightness(85%) hue-rotate(-5deg);
+    filter: grayscale(40%) contrast(160%) brightness(85%) hue-rotate(-5deg);
     mix-blend-mode: darken;
     opacity: 0.85;
 }
@@ -306,8 +294,7 @@
 }
 
 .cssco.cssco--x1 img {
-    -webkit-filter: grayscale(100%) contrast(190%) brightness(110%);
-            filter: grayscale(100%) contrast(190%) brightness(110%);
+    filter: grayscale(100%) contrast(190%) brightness(110%);
     opacity: 0.75;
 }
 
@@ -330,7 +317,6 @@
 }
 
 .cssco.cssco--t1 img {
-    -webkit-filter: grayscale(20%) contrast(140%);
-            filter: grayscale(20%) contrast(140%);
+    filter: grayscale(20%) contrast(140%);
     mix-blend-mode: hard-light;
 }

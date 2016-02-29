@@ -16,8 +16,21 @@ module.exports = function (grunt) {
         cssmin: {
             min: {
                 files: {
-                    'cssco.min.css': 'cssco.css'
+                    'cssco.min.css': 'cssco.min.css'
                 }
+            }
+        },
+        postcss: {
+            options: {
+                processors: [
+                    require('autoprefixer')({
+                        browsers: 'last 2 versions'
+                    })
+                ]
+            },
+            dist: {
+                src: 'cssco.css',
+                dest: 'cssco.min.css'
             }
         }
     });
@@ -25,5 +38,5 @@ module.exports = function (grunt) {
     require('load-grunt-tasks')(grunt);
 
     grunt.registerTask('lint', ['csslint']);
-    grunt.registerTask('min', ['cssmin']);
+    grunt.registerTask('min', ['postcss', 'cssmin']);
 };

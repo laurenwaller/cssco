@@ -1,5 +1,5 @@
 /* -------------------------------------------------------------------------- *
-   CSSCO | 1.0.0 | https://github.com/we-are-next/cssco
+   CSSCO | 1.1.0 | https://github.com/we-are-next/cssco
 \* -------------------------------------------------------------------------- */
 
 .cssco {
@@ -151,6 +151,29 @@
     -webkit-filter: grayscale(30%) contrast(140%) hue-rotate(-5deg);
     filter: grayscale(30%) contrast(140%) hue-rotate(-5deg);
     mix-blend-mode: hard-light;
+}
+
+
+
+/* -------------------------------------------------------------------------- *\
+   $KK2
+\* -------------------------------------------------------------------------- */
+
+.cssco.cssco--kk2 {
+    background: linear-gradient(-179deg, #b1957d 29%, #7d7b73 57%, #ce9778 100%);
+}
+
+.cssco.cssco--kk2:after {
+    background-color: #dab66d;
+    mix-blend-mode: darken;
+    opacity: 0.15;
+}
+
+.cssco.cssco--kk2 img {
+    -webkit-filter: grayscale(30%) contrast(170%);
+    filter: grayscale(30%) contrast(170%);
+    mix-blend-mode: hard-light;
+    opacity: 0.8;
 }
 
 

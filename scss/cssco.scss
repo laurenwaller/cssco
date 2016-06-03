@@ -1,0 +1,266 @@
+/**
+ * SASSCO | 1.0.0 | https://github.com/we-are-next/cssco
+ * Forked From CSSCO by @donaldG to make a SASS version
+ */ 
+
+/** 
+ * Filter Mixin
+ * https://gist.github.com/johnferrie/3836468
+ */
+@mixin filter($filter) { 
+  -webkit-filter: #{$filter};
+  -moz-filter: #{$filter};
+  -ms-filter: #{$filter};
+  -o-filter: #{$filter};
+  filter: #{$filter};
+}
+
+/* -------------------------------------------------------------------------- *
+   #C1
+\* -------------------------------------------------------------------------- */ 
+@mixin c1{
+    background: linear-gradient(#d5aeae, #8f8f8f, #c99d93, #185d62 110%);    
+    &:after{
+        background-color: #58747b;
+        mix-blend-mode: overlay;
+    }
+    img{
+        @include filter("grayscale(6%) contrast(130%)");
+        mix-blend-mode: hard-light;
+    }
+}
+/* -------------------------------------------------------------------------- *
+   #F2
+\* -------------------------------------------------------------------------- */
+@mixin f2{
+    background: linear-gradient(#b8dfdc, #aaa);
+    &:after {
+        background: linear-gradient(#aebab6 43%, #4a5580);
+        mix-blend-mode: soft-light;
+    }
+    img {
+        @include filter("contrast(150%)");
+        opacity: 0.85;
+    }    
+}
+/* -------------------------------------------------------------------------- *
+   #G3
+\* -------------------------------------------------------------------------- */
+@mixin g3{
+    background: linear-gradient(#485c6e, #b9b9b0 15%, #4b6974);
+    img {
+        @include filter("contrast(130%)");
+        mix-blend-mode: hard-light;
+    }
+}
+/* -------------------------------------------------------------------------- *
+   #P5
+\* -------------------------------------------------------------------------- */
+@mixin p5{
+    background-color: #8facaf;
+    &:after {
+        background: linear-gradient(to bottom left, #9ec1b3, #8c78a0, #646983, #252c37);
+        mix-blend-mode: overlay;
+    }
+    img {
+        @include filter("grayscale(15%) contrast(150%)");
+        opacity: 0.8;
+    }    
+}
+/* -------------------------------------------------------------------------- *
+   #LV3
+\* -------------------------------------------------------------------------- */
+@mixin lv3{
+    background: linear-gradient(-179deg, #a48a7a 0%, #927f77 37%, #ac8577 49%, #574d47 100%);
+    img {
+        @include filter("grayscale(20%) contrast(130%)");
+        mix-blend-mode: hard-light;
+    }    
+}
+/* -------------------------------------------------------------------------- *
+   #B5
+\* -------------------------------------------------------------------------- */
+@mixin b5{
+    background-color: #000;
+    img {
+        @include filter("grayscale(100%) contrast(180%) brightness(95%)");
+        opacity: 0.9;
+    }    
+}
+/* -------------------------------------------------------------------------- *
+   #A6
+\* -------------------------------------------------------------------------- */
+@mixin a6{
+    background-color: #a9a499;
+    &:after {
+        background-color: #eaeae9;
+        mix-blend-mode: multiply;
+    }
+    img {
+        @include filter("grayscale(30%) contrast(140%) hue-rotate(-5deg)");
+        mix-blend-mode: hard-light;
+    }
+}
+/* -------------------------------------------------------------------------- *
+   #M5
+\* -------------------------------------------------------------------------- */
+@mixin m5{
+    background: radial-gradient(#c09f81, #816c5f);
+    &:after {
+        background: linear-gradient(#bbccce 50%, #000000);
+        mix-blend-mode: soft-light;
+        opacity: 0.5;
+    }
+    img {
+        @include filter("grayscale(40%) contrast(110%)");
+        mix-blend-mode: hard-light;
+    }
+}
+/* -------------------------------------------------------------------------- *
+   #M3
+\* -------------------------------------------------------------------------- */
+@mixin m3{
+    background-color: #817e72;
+    &:after {
+        background-color: #cce7de;
+        mix-blend-mode: multiply;
+        opacity: 0.35;
+    }
+    img {
+        @include filter("grayscale(30%) contrast(155%)");
+        mix-blend-mode: hard-light;
+        opacity: 0.75;
+    }    
+}
+/* -------------------------------------------------------------------------- *
+   #HB1
+\* -------------------------------------------------------------------------- */
+@mixin hb1{
+    background: linear-gradient(-180deg, #8e8d9a 30%, #a6939f 48%, #6c7c95 65%, #6a7b95 58%, #c5cdd7 86%, #303743 100%);
+    &:after {
+        background-color: #294459;
+        mix-blend-mode: lighten;
+        opacity: 0.5;
+    }
+    img {
+        @include filter("grayscale(20%) contrast(130%)");
+        mix-blend-mode: hard-light;
+    }    
+}
+/* -------------------------------------------------------------------------- *
+   #HB2
+\* -------------------------------------------------------------------------- */
+@mixin hb2{
+    background: linear-gradient(-180deg, #8e8d9a 31%, #a69893 49%, #4c4644 58%, #c5cdd7 88%, #303d43 100%);
+    &:after {
+        background-color: #315764;
+        mix-blend-mode: overlay;
+        opacity: 0.25;
+    }
+    img {
+        @include filter("grayscale(20%) contrast(130%)");
+        mix-blend-mode: hard-light;
+    }    
+}
+/* -------------------------------------------------------------------------- *
+   #ACG
+\* -------------------------------------------------------------------------- */
+@mixin acg{
+    background-color: #eceedf;
+    &:after {
+        background: linear-gradient(-180deg, #77766f 30%, #6a6f68 60%, #45353e 100%);
+        mix-blend-mode: overlay;
+    }
+    img {
+        @include filter("grayscale(40%) contrast(160%) brightness(85%) hue-rotate(-5deg)");
+        mix-blend-mode: darken;
+        opacity: 0.85;
+    }    
+}
+/* -------------------------------------------------------------------------- *
+   #X1
+\* -------------------------------------------------------------------------- */
+@mixin x1{
+    background-color: #444;
+    &:after {
+        background-color: #333;
+        mix-blend-mode: lighten;
+    }
+    img {
+        @include filter("grayscale(100%) contrast(190%) brightness(110%)");
+        opacity: 0.75;
+    }    
+}
+/* -------------------------------------------------------------------------- *
+   #T1
+\* -------------------------------------------------------------------------- */
+@mixin t1{
+    background-color: #9d9990;
+    &:after {
+        background-color: #878787;
+        mix-blend-mode: lighten;
+        opacity: 0.5;
+    }
+    img {
+        @include filter("grayscale(20%) contrast(140%)");
+        mix-blend-mode: hard-light;
+    }    
+}
+.cssco {
+    position: relative;
+    &:after{
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    img{
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+    &.cssco--c1{
+        @include c1;
+    }
+    &.cssco--f2 {
+        @include f2;
+    }   
+    &.cssco--g3 {
+        @include g3;
+    }   
+    &.cssco--p5 {
+        @include p5;
+    }  
+    &.cssco--lv3 {
+        @include lv3;
+    } 
+    &.cssco--b5 {
+        @include b5;  
+    }           
+    &.cssco--a6 {
+        @include a6;
+    }
+    &.cssco--m5 {
+        @include m5;
+    }
+    &.cssco--m3 {
+        @include m3;
+    }
+    &.cssco--hb1 {
+        @include hb1;
+    }    
+    &.cssco--hb2 {
+        @include hb2;
+    }
+    &.cssco--acg {
+        @include acg;
+    } 
+    &.cssco--x1 {
+        @include x1;
+    } 
+    &.cssco--t1 {
+        @include t1;
+    }          
+}

@@ -187,7 +187,7 @@
 
 .cssco.cssco--kk2 img {
     -webkit-filter: grayscale(30%) contrast(170%);
-    filter: grayscale(30%) contrast(170%);
+            filter: grayscale(30%) contrast(170%);
     mix-blend-mode: hard-light;
     opacity: 0.8;
 }

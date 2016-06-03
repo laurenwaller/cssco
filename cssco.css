@@ -171,6 +171,31 @@
 
 
 
+/* -------------------------------------------------------------------------- *\
+   $KK2
+\* -------------------------------------------------------------------------- */
+
+.cssco.cssco--kk2 {
+    background: linear-gradient(-179deg, #b1957d 29%, #7d7b73 57%, #ce9778 100%);
+}
+
+.cssco.cssco--kk2:after {
+    background-color: #dab66d;
+    mix-blend-mode: darken;
+    opacity: 0.15;
+}
+
+.cssco.cssco--kk2 img {
+    -webkit-filter: grayscale(30%) contrast(170%);
+    filter: grayscale(30%) contrast(170%);
+    mix-blend-mode: hard-light;
+    opacity: 0.8;
+}
+
+
+
+
+
 /* -------------------------------------------------------------------------- *
    #M5
 \* -------------------------------------------------------------------------- */
